@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />  <!--animation on scrolling-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/98ac9bf0bd.js" crossorigin="anonymous"></script>
+    <title>Home</title>
+</head>
+<body id="home">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container p-0">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo dentist" style="width: 45px;"></a>
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars" style="color: white; font-size: 2.6rem;"></i>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active mr-4">
+                        <a class="nav-link" href="#" style="color: #2a3347!important;">POČETNA STRANICA</span></a>
+                    </li>
+                    <li class="nav-item mr-4">
+                        <a class="nav-link" href="dentists.html">NAŠ TIM</a>
+                    </li>
+                    <li class="nav-item mr-4">
+                        <a class="nav-link" href="services.html">USLUGE</a>
+                    </li>
+                    <li class="nav-item mr-4">
+                      <a class="nav-link" href="prices.html">CIJENE</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        KONTAKT
+                    </a>
+                    <div class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="reviews.html">RECENZIJE</a>
+                        <a class="dropdown-item" href="appointment.html">ZAKAŽITE TERMIN</a>
+                    </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+      
+    <header id="demo" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/dentist1.jpg" alt="dentist" width="100%">  
+        </div>
+        <div class="carousel-item">
+          <img src="img/dentist2.jpg" alt="dentist" width="100%" >  
+        </div>
+        <div class="carousel-item">
+          <img src="img/dentist3.jpg" alt="dentist" width="100%">  
+        </div>
+      </div>
+      
+      <div class="container-fluid text-center grey_background p-0">
+        <div class=" appointment">
+          <h2 class="display-4 m-0">Sve što vam treba za blistav osmijeh</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, suscipit?
+          </p>
+          <a href="appointment.html"><button class="btn btn-lg btn-primary rounded-0">Zakažite termin</button></a>
+        </div>
+      </div>
+    </header>
+
+    <div class="about container" data-aos="fade-left">
+      <div class="row justify-content-around">
+        <div class="col-10 col-md-8 p-4 text">
+          <h1 class="mb-0">O NAMA</h1>
+          <p>
+            Tim naše dentalne klinike čine vrhunski i uvijek nasmijani doktori dentalne medicine, dentalni asistenti, 
+            dentalni tehničari i specijalisti za komunikaciju s našim klijentima. 
+            Smješteni smo u Zagrebu i opremljeni najmodernijom opremom koja vam pruža razne stomatološke usluge.
+          </p> 
+          <p>Od dijagnostike do potpuno novog osmijeha na jednom 
+            mjestu – štedimo vaše vrijeme i novac! Dio naše klinike je i moderni CAD/CAM laboratorij kojim upravljaju stručni 
+            dentalni tehničari što jamči visoku kvalitetu u svim područjima dentalne protetike.
+          </p>
+          <p>Od prvog telefonskog poziva do završetka terapije, uvažavamo činjenicu da je svaki pacijent osoba 
+            s individualnim potrebama i željama. Imajući to na umu, naši stručnjaci pridaju veliki značaj suradnji 
+            s pacijentom, kako bi mogli ponuditi rješenja za koja vjerujemo da su za individualni slučaj najprikladnija. 
+            Naš prioritet je da slušamo vaše želje i vratimo vam osmijeh na lice i to onakav kakav ste oduvijek sanjali.
+          </p>
+        </div>
+          <div class="col-6 col-md-3 p-4 my-3 my-md-0 text">
+            <h1 class="mb-3">RADNO VRIJEME</h1>
+            <p><b>Pon-Pet</b>  08:00-18:00<br>
+              <b>Subota</b>  08:00-15:00<br>
+              <b>Nedjelja</b>  10:00-15:00
+            </p>
+          </div>
+      </div>
+    </div>
+
+    <section class="container-fluid dentists_home" data-aos="fade-right">
+      <div class="row">
+        <div id="choose_dentist" class="col-12 col-md-5">
+          <h2 class="display-4 text-center text-sm-right mr-0 mr-md-4">NAŠ TIM</h2>
+          <aside class="row justify-content-between align-items-center align-items-md-start align-items-lg-center">
+            <i class="fas fa-angle-left display-4 ml-5"></i>
+            <i class="fas fa-angle-right display-4 mr-5"></i>
+          </aside>
+        </div>
+        <div class="col-12 col-md-7 text-center p-3 p-md-5">
+          <h2 id="dentist_name_demo">DR.MED.DENT  Ivan Antolkovic</h2>
+          <p id="dentist_text_demo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Consequatur, id, unde sunt blanditiis quia ipsum dicta tempore quod possimus ducimus optio dolorem 
+            quasi impedit facilis maiores vitae non eligendi. Maiores voluptates reiciendis molestias eius qui harum, 
+            nobis aperiam inventore velit...</p>
+          <a href="dentists.html"><button class="btn rounded-0" type="button">Read more</button></a>
+        </div>
+      </div>
+    </section>
+
+    <div class="display-4 container text-left mb-5 quote">
+      <p><i>Osmijeh je za cijeli život i želimo se pobrinuti da vaš ostane postojan.</i></p>
+    </div>
+    
+    <footer class="container-fluid">
+      
+      <div class="container pt-4">
+        <div>
+          <h2>Imate pitanja?</h2>
+          <h2>Rado ćemo na njih odgovoriti.</h2>
+          <p class="mb-1" ><i class="fas fa-phone-alt"></i>  01 4572 433</p>
+          <p class="mb-1"><i class="fas fa-paper-plane"></i> ident@gmail.com</p>
+          <p class="mb-1"><i class="fas fa-map-marker-alt"></i> Radnička cesta 21/I, 10000, Zagreb</p>
+        </div>
+      </div>       
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>  <!--animation on scrolling-->
+<script>    
+  AOS.init();
+</script>   <!--animation on scrolling-->
+</body>
+</html>
